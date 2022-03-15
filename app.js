@@ -35,6 +35,3 @@ function timer() {
         second.innerText = "00";
     };
 };
-
-   
-
