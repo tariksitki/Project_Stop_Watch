@@ -28,13 +28,6 @@
     border-radius: 0px 0.5rem;
 }
 
-.buttons-div {
-    display: flex;
-    width: 20%;
-    height: 4rem;
-    justify-content: space-around;
-}
-
 .hidden {
     display: none;
 }
@@ -58,6 +51,13 @@
 
 .colon {
     font-size: 2rem;
+}
+
+.buttons-div {
+    display: flex;
+    width: 20%;
+    height: 4rem;
+    justify-content: space-around;
 }
 
 .pause,
@@ -84,5 +84,92 @@
     .container {
         height: 50%;
         width: 60%;
+    }
+
+    .watch div {
+        font-size: 1.1rem;
+    }
+
+    .colon {
+        font-size: 1.5rem;
+    }
+
+    .header {
+        font-size: 0.8rem;
+    }
+}
+
+
+@media only screen and (max-width: 778px) {
+    .container {
+        height: 40%;
+        width: 60%;
+    }
+
+    .watch div {
+        font-size: 0.9rem;
+    }
+
+    .header {
+        font-size: 0.7rem;
+    }
+
+    .colon {
+        font-size: 1.2rem;
+    }
+
+    .buttons-div {
+        display: flex;
+        width: 30%;
+    }
+}
+
+
+@media only screen and (max-width: 670px) {
+    .container {
+        height: 30%;
+        width: 60%;
+    }
+
+    .watch div {
+        font-size: 0.7rem;
+    }
+
+    .header {
+        font-size: 0.7rem;
+    }
+
+    .colon {
+        font-size: 1rem;
+    }
+
+    .buttons-div {
+        display: flex;
+        width: 30%;
+    }
+}
+
+
+@media only screen and (max-width: 500px) {
+    .container {
+        height: 27%;
+        width: 60%;
+    }
+
+    .watch div {
+        font-size: 0.6rem;
+    }
+
+    .header {
+        font-size: 0.5rem;
+    }
+
+    .colon {
+        font-size: 0.8rem;
+    }
+
+    .buttons-div {
+        display: flex;
+        width: 30%;
     }
 }
